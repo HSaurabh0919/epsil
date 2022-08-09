@@ -1,5 +1,5 @@
 # epsil
-Application of Machine Learning in Finance Domain like stocks trend prediction, Anomaly detection
+Application of Machine Learning in Finance Domain like Stocks/Assets trend prediction, Anomaly detection, Volatility Estimate.
 
 ### Finance Algorithms:
 1. [Stock Trend Prediction](https://github.com/HSaurabh0919/epsil/blob/main/Finance/TrendPrediction_01.ipynb) as a Classification Problem with DecisionTreeClassifier and GradientBoostingClassifier.
