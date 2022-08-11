@@ -7,6 +7,15 @@ Application of Machine Learning in Finance Domain like Stocks/Assets trend predi
 
 
 ### Forex Trading Results (Regression Formulation)
+#### Default Values:
+| Feature | Value|
+| ----------- | ----------- |
+| Sequence length | 60       |
+| Number of Layers | 4      |
+| Droput Value | 0.2       |
+| Sequence length | 60       |
+
+#### Performance
 | Architecture | R-squared Score|
 | ----------- | ----------- |
 | Stacked GRU      | 0.40       |
@@ -15,6 +24,25 @@ Application of Machine Learning in Finance Domain like Stocks/Assets trend predi
 | Stacked CNN with 10 layers     | 0.23       |
 | Stacked GRU with Added Features   | -0.31        |
 | Stacked GRU + LSTM with Added Features   | -15.6        |
+
+### Forex Trading Results (Classification Formulation)
+#### Default Values:
+| Feature | Value|
+| ----------- | ----------- |
+| Sequence length | 60       |
+| Number of Layers | 4      |
+| Droput Value | 0.2       |
+| Sequence length | 60       |
+
+
+#### Performance
+| Architecture | Accuracy Score|
+| ----------- | ----------- |
+| Stacked GRU  with single feature   | 0.60       |
+| Stacked GRU with Partial Added Features   | 0.58        |
+| Stacked GRU + LSTM with 10 Added Features   | 0.51        |
+| Stacked GRU  with single feature and sequence length 4  | 0.51       |
+
 
 ### Anomaly Detection
 1. [Anomaly Detection](https://github.com/HSaurabh0919/epsil/blob/main/Anomaly_Detection/autoencoder.ipynb) using Autoencoders on a private datatset.
