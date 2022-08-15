@@ -4,6 +4,7 @@ Application of Machine Learning in Finance Domain like Stocks/Assets trend predi
 ### Finance Algorithms:
 1. [Stock Trend Prediction](https://github.com/HSaurabh0919/epsil/blob/main/Finance/TrendPrediction_01.ipynb) as a Classification Problem with DecisionTreeClassifier and GradientBoostingClassifier.
 2. [Forex Trading](https://github.com/HSaurabh0919/epsil/blob/main/Finance/forex_trading.ipynb) using LSTM, GRU and CNN.
+3. [Asset Allocation](https://github.com/HSaurabh0919/epsil/blob/main/Finance/asset_allocation.ipynb) using One Step Prediction from Random Forest and Linear Regressor and using Buy and Hold Strategy as a baseline.
 
 
 ### Forex Trading Results (Regression Formulation)
@@ -42,6 +43,13 @@ Application of Machine Learning in Finance Domain like Stocks/Assets trend predi
 | Stacked GRU with Partial Added Features   | 0.58        |
 | Stacked GRU + LSTM with 10 Added Features   | 0.51        |
 | Stacked GRU  with single feature and sequence length 4  | 0.51       |
+
+### Asset Allocation Results
+| Strategy | Annual Returns | Accuracy Volatility | 
+| ----------- | ----------- | ----------- |
+| Buy and Hold Strategy  | 17.25%       | 15.96% |
+| Asset Allocation using LR Predictions | 21.93% | 14.82% |
+| Asset Allocation using LR Predictions  | 17.69% | 13.75% |
 
 
 ### Anomaly Detection
