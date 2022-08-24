@@ -5,7 +5,7 @@ Application of Machine Learning in Finance Domain like Stocks/Assets trend predi
 1. [Stock Trend Prediction](https://github.com/HSaurabh0919/epsil/blob/main/Finance/TrendPrediction_01.ipynb) as a Classification Problem with DecisionTreeClassifier and GradientBoostingClassifier.
 2. [Forex Trading](https://github.com/HSaurabh0919/epsil/blob/main/Finance/forex_trading.ipynb) using LSTM, GRU and CNN.
 3. [Asset Allocation](https://github.com/HSaurabh0919/epsil/blob/main/Finance/asset_allocation.ipynb) using One Step Prediction from Random Forest and Linear Regressor and using Buy and Hold Strategy as a baseline.
-4. [Option Analysis](https://github.com/HSaurabh0919/epsil/tree/main/Options)
+4. [Option Analysis](https://github.com/HSaurabh0919/epsil/tree/main/Options) Analysis of various Put Call Options through different algorithms.
 
 
 ### Forex Trading Results (Regression Formulation)
